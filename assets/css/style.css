@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#Main {
+    width: 100%;
+    height: 450px;
+    border: 1px solid green;
+    background-image: linear-gradient(to right, #fefae0, #dda15e);
+}
+
+/* Flexbox for larger screens */
+header #Main .child1 {
+    display: block;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+header #Main .child1 h2 {
+    padding: 20px;
+    color: #e63946;
+    text-shadow: 1px 1px #780000;
+    display: inline-block;
+    width: 30%;
+}
+
+header #Main .child1 input button {
+    width: 20%;
+}
+
+header #Main .child1 input a {
+    width: 30%;
+}
+
+header #Main .child1 .in1 {
+    height: 30px;
+    margin-top: 20px;
+    border-radius: 10px;
+    text-align: center;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+header #Main .child1 .in2 {
+    height: 30px;
+    width: 50px;
+    margin-top: 20px;
+    border-radius: 10px;
+    text-align: center;
+    color: #fefae0;
+    background-color: #e63946;
+    padding: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+header #Main .child1 a {
+    text-decoration: none;
+    margin: 20px;
+    position: relative;
+    left: 100px;
+}
+
+header #Main .child1 button {
+    height: 30px;
+    margin-top: 20px;
+    border-radius: 10px;
+    text-align: center;
+    color: #fefae0;
+    background-color: #e63946;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    margin-left: 10px;
+    padding: 5px;
+    position: relative;
+    left: 200px;
+}
+
+header #Main .child2 {
+    width: 400px;
+    height: 200px;
+    padding: 30px 10px;
+}
+
+header #Main .child2 h1 {
+    font-size: xx-large;
+    font-weight: 900;
+    color: #03045e;
+    padding: 5px 10px;
+    font-style: italic;
+}
+
+header #Main .child3 img {
+    width: 500px;
+    height: 300px;
+    border-radius: 10px;
+    box-shadow: 5px 5px #ccc5b9;
+}
+
+header #Main .child3 {
+    position: relative;
+    left: 500px;
+    bottom: 200px;
+    display: inline-block;
+    margin: 10px 10px;
+    width: 50%;
+    text-align: end;
+}
+
+header #Main .child4 img {
+    width: 80px;
+    height: 80px;
+    position: relative;
+    bottom: 300px;
+}
+
+header #Main .child4 svg {
+    position: relative;
+    bottom: 250px;
+    right: 400px;
+}
+
+header #Main .child1 div a {
+    display: inline;
+    margin-right: 100px;
+    color: #d4a373;
+}
+
+
+
